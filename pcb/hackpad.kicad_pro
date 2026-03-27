@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../GitHub/macpad/production/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -632,7 +632,7 @@
         "uuid": "edf0bd4a-1799-46e4-9e94-03826681e4be"
       }
     ],
-    "used_designators": "D3-23",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

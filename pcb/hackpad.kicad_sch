@@ -1839,145 +1839,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -2946,16 +2807,16 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 113.03 147.32 180)
+		(at 116.84 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0ac89005-9742-40fc-aa35-5920e1b1f3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 147.32 0)
+			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,16 +2829,16 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 113.03 133.35 180)
+		(at 116.84 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1a1896eb-c5e5-4152-bee3-89e88e815f60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 133.35 0)
+			(at 116.84 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,16 +2851,16 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 113.03 144.78 180)
+		(at 116.84 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2c850083-f795-495b-8e50-4ccc95784014")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 144.78 0)
+			(at 116.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,16 +2917,16 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 113.03 130.81 180)
+		(at 116.84 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e9e46366-78db-4f69-8ebf-180f4af8eb23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 130.81 0)
+			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3078,7 +2939,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 152.4 270)
+		(at 116.84 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3089,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "0862a34f-e3e8-48ad-8dd1-4eb47e240f3d")
 		(property "Reference" "#PWR019"
-			(at 106.68 152.4 0)
+			(at 123.19 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +2961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 152.3999 90)
+			(at 120.65 147.3201 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3111,7 +2972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 152.4 0)
+			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 152.4 0)
+			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,7 +2994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 152.4 0)
+			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3377,7 +3238,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 118.11 133.35 0)
+		(at 111.76 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3388,7 +3249,7 @@
 		(fields_autoplaced yes)
 		(uuid "17619df6-9b70-4188-803d-ceed8b31eb07")
 		(property "Reference" "J1"
-			(at 120.65 133.3499 0)
+			(at 109.22 132.0801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3399,7 +3260,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 120.65 135.8899 0)
+			(at 109.22 129.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3410,7 +3271,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SSD1306-0.91-OLED-4pin-128x32"
-			(at 118.11 133.35 0)
+			(at 111.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +3282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 133.35 0)
+			(at 111.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +3293,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 133.35 0)
+			(at 111.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3547,6 +3408,85 @@
 			(project "hackpad"
 				(path "/edf0bd4a-1799-46e4-9e94-03826681e4be"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 116.84 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21656d8b-60a6-430c-8ba3-53ab84678182")
+		(property "Reference" "#PWR01"
+			(at 113.03 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 120.65 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3482a937-6292-43b6-b317-80b4847e2bd6")
+		)
+		(instances
+			(project "hackpad"
+				(path "/edf0bd4a-1799-46e4-9e94-03826681e4be"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4023,85 +3963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 113.03 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b6e7151-af17-4baf-841e-9798f29d9534")
-		(property "Reference" "#PWR018"
-			(at 116.84 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 109.22 149.8599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 113.03 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13225a86-cc8c-4d8c-9358-9498edbd3625")
-		)
-		(instances
-			(project "hackpad"
-				(path "/edf0bd4a-1799-46e4-9e94-03826681e4be"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 186.69 71.12 270)
 		(unit 1)
@@ -4225,7 +4086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 200.66 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4623,6 +4484,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 116.84 144.78 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a89569-5c10-417f-b7f2-8c30b9e022af")
+		(property "Reference" "#PWR03"
+			(at 113.03 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 120.65 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49510978-8ba1-4103-a7d4-c3de848c9a26")
+		)
+		(instances
+			(project "hackpad"
+				(path "/edf0bd4a-1799-46e4-9e94-03826681e4be"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 134.62 109.22 90)
 		(unit 1)
@@ -4759,7 +4699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4817,7 +4757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 138.43 270)
+		(at 116.84 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4828,7 +4768,7 @@
 		(fields_autoplaced yes)
 		(uuid "9749c77c-b2ef-4176-a78b-9341f9ceba9b")
 		(property "Reference" "#PWR011"
-			(at 106.68 138.43 0)
+			(at 123.19 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 138.4299 90)
+			(at 120.65 134.6201 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +4790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 138.43 0)
+			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 138.43 0)
+			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +4812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 138.43 0)
+			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 246.38 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5016,7 +4956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5184,7 +5124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5481,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 198.12 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5570,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 154.94 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5628,7 +5568,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 118.11 147.32 0)
+		(at 111.76 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5639,7 +5579,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd43e02c-ad97-4d51-aaee-3eb28b5e7d6b")
 		(property "Reference" "J2"
-			(at 120.65 147.3199 0)
+			(at 109.22 144.7801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5650,7 +5590,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 120.65 149.8599 0)
+			(at 109.22 142.2401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5661,7 +5601,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 118.11 147.32 0)
+			(at 111.76 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5672,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 147.32 0)
+			(at 111.76 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5683,7 +5623,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 147.32 0)
+			(at 111.76 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 215.9 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5836,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 213.36 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6344,7 +6284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 228.6 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6749,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 243.84 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6800,85 +6740,6 @@
 			(project "hackpad"
 				(path "/edf0bd4a-1799-46e4-9e94-03826681e4be"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 113.03 135.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdb45d9f-ab48-497c-ae83-5a6baee41839")
-		(property "Reference" "#PWR010"
-			(at 116.84 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 109.22 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 113.03 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1da2b657-e927-420c-8a1e-01e8920b3597")
-		)
-		(instances
-			(project "hackpad"
-				(path "/edf0bd4a-1799-46e4-9e94-03826681e4be"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

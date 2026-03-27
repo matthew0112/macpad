@@ -1,17 +1,26 @@
 # Macpad
+
+**This macropad has 8 switches, a roatary encoder, OLED Display, 12 LEDs surrounding the keys**
+
+The extra header allows the ablity to connect more devices in the future, with custom firmware, as it uses an I²C bus
+
 ![Case with PCB](assets/full.png)
 
 ## Schematic
 Made in [KiCAD](https://www.kicad.org/)
+
 ![Macpad Schmatic](assets/sch.png)
 
 ## PCB
 Also made in [KiCAD](https://www.kicad.org/)
+
 ![Macpad PCB](assets/pcb.png)
 
 ## Case
 Made with [Onshape](https://www.onshape.com/en/)
+
 ![Macpad Case](assets/case.png)
+
 ## BOM
 - 1 Seeed XIAO
 - 9x through-hole 1N4148 Diodes
