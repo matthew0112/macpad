@@ -18,6 +18,7 @@ Also made in [KiCAD](https://www.kicad.org/)
 
 ## Case
 Made with [Onshape](https://www.onshape.com/en/)
+[View the Onshape Project](https://cad.onshape.com/documents/a3063f954316ced9d12dc1eb/w/765bffe99711a4a00266f054/e/551ffca8c70dbb2c958da650)
 
 ![Macpad Case](assets/case.png)
 
